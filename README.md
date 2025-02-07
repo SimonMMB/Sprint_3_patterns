@@ -20,6 +20,3 @@ Imagine you are a person who is about to leave home to go to study/work. Before 
 - PHP 8.2.4
 - Git/Github
 
-📋 NOTE
-
-- Execute Level 1 - Exercise 2 in console. 
