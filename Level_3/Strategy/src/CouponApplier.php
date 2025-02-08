@@ -2,7 +2,7 @@
 
 require_once 'CarCouponGenerator.php';
 require_once 'BmwCuoponGenerator.php';
-require_once 'MercedezCuoponGenerator.php';
+require_once 'MercedesCuoponGenerator.php';
 
 class CouponApplier
 {
@@ -13,7 +13,7 @@ class CouponApplier
         $this->carCouponGenerator = $carCouponGenerator;
     }
 
-    public function getTotalDiscount(): int
+    public function getTotalDiscount(): string
     {
         return $this->carCouponGenerator->getTotalDiscount();
     }

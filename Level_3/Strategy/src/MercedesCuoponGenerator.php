@@ -2,7 +2,7 @@
 
 require_once 'CarCouponGenerator.php';
 
-class MercedezCuoponGenerator implements CarCouponGenerator
+class MercedesCouponGenerator implements CarCouponGenerator
 {
     public function addSeasonDiscount(): int
     {

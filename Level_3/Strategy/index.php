@@ -1,8 +1,8 @@
 <?php
 require_once 'src/CouponApplier.php';
 require_once 'src/CarCouponGenerator.php';
-require_once 'src/BmwCuoponGenerator.php';
-require_once 'src/MercedezCuoponGenerator.php';
+require_once 'src/BmwCouponGenerator.php';
+require_once 'src/MercedesCouponGenerator.php';
 
 
 /* 
@@ -15,12 +15,14 @@ the calculation of discount is as follow:
 $couponApplier = new CouponApplier();
 
 //Discount for BMW
-$bmwCouponGenerator = new BmwCuoponGenerator();
-echo $bmwCouponGenerator->getTotalDiscount();
+$bmwCouponGenerator = new BmwCouponGenerator();
+$couponApplier->setStrategy($bmwCouponGenerator);
+echo $couponApplier->getTotalDiscount() . PHP_EOL;
 
 //Discount for Mercedes-Benz
-$mercedesCouponGenerator = new MercedezCuoponGenerator();
-echo $mercedesCouponGenerator->getTotalDiscount();
+$mercedesCouponGenerator = new MercedesCouponGenerator();
+$couponApplier->setStrategy($mercedesCouponGenerator);
+echo $couponApplier->getTotalDiscount() . PHP_EOL;
 
 ?>
 
