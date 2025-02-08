@@ -29,6 +29,21 @@ FACADE
 When we wash dishes (by hand), we generally take a piece of laundry, soap it, rinse it, and place it in the dryer.
 These steps are fully automated with an automatic dishwasher. Implement this logic using the Facade pattern.
 
+LEVEL 3
+
+STRATEGY
+Consider the function called couponGenerator($car).
+The coupon takes into account the following factors to weight the discount rate:
+* We may want to offer a discount during a recession in car purchases (!isHighSeason).
+* We may want to offer a discount when the stock of cars for sale is too large (bigStock).
+According to the previous considerations, use strategy pattern for, given the brand of a car, program calculates discount. Make sure to take the following into account:
+* function addSeasonDiscount() adds a discount when sales are down.
+* function addStockDiscount() adds a discount when inventory is too high.
+Print the coupon result for the two car brands (BMW and Mercedes) to the screen.
+
+OBSERVER
+Imagine we need to implement a mechanism to notify mentors that a new assignment (or any new) has been submitted to Moodle. 
+Write a program that implements the Observer pattern so that each time a new submission is generated in Moodle, it notifies mentors of this submission.
 
 💻 TECHNOLOGIES USED
 
