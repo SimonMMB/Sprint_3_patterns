@@ -6,14 +6,14 @@ LEVEL 1
 
 SNGLETON
 
-Refactor the Tigger class into a Singleton considering the following points:
+- Refactor the Tigger class into a Singleton considering the following points:
 * Define the getInstance() method.
 * Print Tigger's roar multiple times to the screen.
 * Add a getCounter() method that returns the number of times Tigger has roared.
 
 DEPENDENCY INJECTION
 
-Imagine you are a person who is about to leave home to go to study/work. 
+- Imagine you are a person who is about to leave home to go to study/work. 
 You will need to bring your wallet, house keys, maybe car/motorcycle keys or public transport card, and smartphone. 
 Write a program that simulates this logic using the dependency injection pattern.
 
@@ -21,7 +21,7 @@ LEVEL 2
 
 ADAPTER
 
-Given the class Duck and the class Turkey, you want your turkeys to behave like ducks.
+- Given the class Duck and the class Turkey, you want your turkeys to behave like ducks.
 Implement the adapter pattern. In the same file, write a class called TurkeyAdapter. 
 Translating quack between classes is easy: just call the Gobble method when appropriate.
 Although both classes have a fly method, turkeys can only fly in short bursts.
@@ -30,14 +30,14 @@ Test your class with the given code.
 
 FACADE
 
-When we wash dishes (by hand), we generally take a piece of laundry, soap it, rinse it, and place it in the dryer.
+- When we wash dishes (by hand), we generally take a piece of laundry, soap it, rinse it, and place it in the dryer.
 These steps are fully automated with an automatic dishwasher. Implement this logic using the Facade pattern.
 
 LEVEL 3
 
 STRATEGY
 
-Consider the function called couponGenerator($car).
+- Consider the function called couponGenerator($car).
 The coupon takes into account the following factors to weight the discount rate:
 * We may want to offer a discount during a recession in car purchases (!isHighSeason).
 * We may want to offer a discount when the stock of cars for sale is too large (bigStock).
@@ -48,7 +48,7 @@ Print the coupon result for the two car brands (BMW and Mercedes) to the screen.
 
 OBSERVER
 
-Imagine we need to implement a mechanism to notify mentors that a new assignment (or any new) has been submitted to Moodle. 
+- Imagine we need to implement a mechanism to notify mentors that a new assignment (or any new) has been submitted to Moodle. 
 Write a program that implements the Observer pattern so that each time a new submission is generated in Moodle, it notifies mentors of this submission.
 
 💻 TECHNOLOGIES USED
