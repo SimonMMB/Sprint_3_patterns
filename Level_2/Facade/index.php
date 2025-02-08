@@ -21,4 +21,3 @@ $automaticDishWasher = new AutomaticDishWasher();
 $automaticDishWasher->washDirtyDish();
 
 ?>
-
